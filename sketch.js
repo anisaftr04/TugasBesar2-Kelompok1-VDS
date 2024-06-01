@@ -5,7 +5,7 @@ let pTali    = 70;         // panjang tali
 let thetaVel = 0;           // kecepatan sudut awal
 let thetaAcc = 0;           // percepatan sudut awal
 let ballSize = 15;          // Ukuran bola
-let gravity  = 0;           // gravitasi
+let gravity  = 10;           // gravitasi
 let damping  = 0;           // redaman awal
 
 //Gambar
@@ -41,7 +41,7 @@ function preload(){
 
 function resetNilai() {
   pTali    = 70; 
-  gravity  = 0;
+  gravity  = 10;
   ballSize = 15;
   theta    = 0;
   damping  = 0;
